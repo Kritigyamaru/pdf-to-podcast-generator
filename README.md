@@ -39,8 +39,7 @@ The system is organized into modular Python files for better maintainability.
 project/
 │
 ├── app.py                  # Main Streamlit entry point
-├── modules/
-│   ├── __pycache__/         # Python cache files
+├── modules/  
 │   ├── config.py            # App configuration & constants
 │   ├── helpers.py           # Utility/helper functions
 │   ├── pdf_rag.py           # PDF RAG logic (ingestion, retrieval, QA)
